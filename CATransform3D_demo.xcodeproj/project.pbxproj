@@ -15,6 +15,11 @@
 		BFB80C3921917F650023EB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C3821917F650023EB61 /* main.m */; };
 		BFB80C4321917F650023EB61 /* CATransform3D_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C4221917F650023EB61 /* CATransform3D_demoTests.m */; };
 		BFB80C4E21917F660023EB61 /* CATransform3D_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C4D21917F660023EB61 /* CATransform3D_demoUITests.m */; };
+		BFB80C5D2191918D0023EB61 /* WQProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80C5C2191918D0023EB61 /* WQProgressView.m */; };
+		BFB80CA52192F8150023EB61 /* BaseAnimController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80CA42192F8150023EB61 /* BaseAnimController.m */; };
+		BFB80CA82192F9060023EB61 /* TransFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80CA72192F9060023EB61 /* TransFormController.m */; };
+		BFB80CAB2192FB270023EB61 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80CA92192FB270023EB61 /* BaseController.m */; };
+		BFB80CAF2193E6BC0023EB61 /* UoProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB80CAE2193E6BC0023EB61 /* UoProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		BFB80C4921917F650023EB61 /* CATransform3D_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATransform3D_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB80C4D21917F660023EB61 /* CATransform3D_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransform3D_demoUITests.m; sourceTree = "<group>"; };
 		BFB80C4F21917F660023EB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB80C5B2191918D0023EB61 /* WQProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQProgressView.h; sourceTree = "<group>"; };
+		BFB80C5C2191918D0023EB61 /* WQProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQProgressView.m; sourceTree = "<group>"; };
+		BFB80CA32192F8150023EB61 /* BaseAnimController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAnimController.h; sourceTree = "<group>"; };
+		BFB80CA42192F8150023EB61 /* BaseAnimController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAnimController.m; sourceTree = "<group>"; };
+		BFB80CA62192F9060023EB61 /* TransFormController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransFormController.h; sourceTree = "<group>"; };
+		BFB80CA72192F9060023EB61 /* TransFormController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransFormController.m; sourceTree = "<group>"; };
+		BFB80CA92192FB270023EB61 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		BFB80CAA2192FB270023EB61 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		BFB80CAD2193E6BC0023EB61 /* UoProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoProgressHUD.h; sourceTree = "<group>"; };
+		BFB80CAE2193E6BC0023EB61 /* UoProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UoProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,13 @@
 				BFB80C2A21917F610023EB61 /* AppDelegate.m */,
 				BFB80C2C21917F610023EB61 /* ViewController.h */,
 				BFB80C2D21917F610023EB61 /* ViewController.m */,
+				BFB80CAA2192FB270023EB61 /* BaseController.h */,
+				BFB80CA92192FB270023EB61 /* BaseController.m */,
+				BFB80CA32192F8150023EB61 /* BaseAnimController.h */,
+				BFB80CA42192F8150023EB61 /* BaseAnimController.m */,
+				BFB80CA62192F9060023EB61 /* TransFormController.h */,
+				BFB80CA72192F9060023EB61 /* TransFormController.m */,
+				BFB80CAC2193D3D70023EB61 /* views */,
 				BFB80C2F21917F610023EB61 /* Main.storyboard */,
 				BFB80C3221917F650023EB61 /* Assets.xcassets */,
 				BFB80C3421917F650023EB61 /* LaunchScreen.storyboard */,
@@ -130,6 +152,17 @@
 				BFB80C4F21917F660023EB61 /* Info.plist */,
 			);
 			path = CATransform3D_demoUITests;
+			sourceTree = "<group>";
+		};
+		BFB80CAC2193D3D70023EB61 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BFB80C5B2191918D0023EB61 /* WQProgressView.h */,
+				BFB80C5C2191918D0023EB61 /* WQProgressView.m */,
+				BFB80CAD2193E6BC0023EB61 /* UoProgressHUD.h */,
+				BFB80CAE2193E6BC0023EB61 /* UoProgressHUD.m */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +296,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB80C2E21917F610023EB61 /* ViewController.m in Sources */,
+				BFB80CAB2192FB270023EB61 /* BaseController.m in Sources */,
+				BFB80CA52192F8150023EB61 /* BaseAnimController.m in Sources */,
 				BFB80C3921917F650023EB61 /* main.m in Sources */,
+				BFB80CAF2193E6BC0023EB61 /* UoProgressHUD.m in Sources */,
 				BFB80C2B21917F610023EB61 /* AppDelegate.m in Sources */,
+				BFB80CA82192F9060023EB61 /* TransFormController.m in Sources */,
+				BFB80C5D2191918D0023EB61 /* WQProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
